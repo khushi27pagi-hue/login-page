@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Flavours - Home</title>
+
+    <link rel="stylesheet" href="dash.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🏺 Ancient Flavours of India</h1>
+
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#">Stories</a>
+        <a href="#">Recipes</a>
+        <a href="#">Favorites</a>
+        <a href="#">Profile</a>
+
+        <button onclick="logout()">Logout</button>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h2>Discover India's Culinary Heritage</h2>
+
+    <input
+    type="text"
+    id="search"
+    placeholder="Search Ancient Recipes..."
+    onkeyup="searchFood()">
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+
+<img src="images/north.jpg">
+
+<h2>North India</h2>
+
+<p>Royal Mughal Cuisine & Punjabi Heritage</p>
+
+<button onclick="openRegion('north.html')">
+Explore
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/south.jpg">
+
+<h2>South India</h2>
+
+<p>Temple Food & Ancient Tamil Cuisine</p>
+
+<button onclick="openRegion('south.html')">
+Explore
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/east.jpg">
+
+<h2>East India</h2>
+
+<p>Bengali Sweets & Odisha Temple Food</p>
+
+<button onclick="openRegion('east.html')">
+Explore
+</button>
+
+</div>
+
+<div class="card">
+
+<img src="images/west.jpg">
+
+<h2>West India</h2>
+
+<p>Gujarati & Maharashtrian Heritage</p>
+
+<button onclick="openRegion('west.html')">
+Explore
+</button>
+
+</div>
+
+</section>
+
+<section class="featured">
+
+<div class="box">
+
+<h2>📜 Story of the Day</h2>
+
+<p>
+Discover how Khichdi became India's oldest comfort food.
+</p>
+
+<button>Read Story</button>
+
+</div>
+
+<div class="box">
+
+<h2>🍲 Featured Recipe</h2>
+
+<p>
+Ancient Millet Porridge served in Vedic India.
+</p>
+
+<button>View Recipe</button>
+
+</div>
+
+</section>
+
+<script src="home.js"></script>
+
+</body>
+</html>
